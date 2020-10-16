@@ -1,10 +1,11 @@
 import React, {useState} from 'react';
 import './App.css';
-import Nav from './components/Nav'
-import About from './components/About'
+import Nav from './components/Nav';
+import About from './components/About';
 import ContactForm from './components/Contact';
 import Portfolio from './components/Portfolio';
-import Resume from './components/Resume'
+import Resume from './components/Resume';
+import Footer from './components/Footer';
 
 function App() {
   const [content] = useState(["about", "portfolio", "contactForm", "resume"]);
@@ -12,16 +13,18 @@ function App() {
 
   return (
     <div className="App">
-      <div>
+      <header>
         <Nav contentSelected={contentSelected}
         setContentSelected={setContentSelected}/>
-      </div>
+      </header>
       <main>
         {(contentSelected === "about") && <About/>}
         {(contentSelected === "portfolio") && <Portfolio/>}
         {(contentSelected === "contactForm") && <ContactForm/>}
         {(contentSelected === "resume") && <Resume/>}
       </main>
+      <Footer/>
+      
     </div>
   );
 }
