@@ -70,6 +70,8 @@ function Project(){
                     <div className="card-body">
                         <h4 className="card-title">{project.name}</h4>
                         <p className="card-text">{project.description}</p>
+                        <a href={project.github}>Github</a>
+                        <a href={project.deployed}>Deployed App</a>
                     </div>
                 </div>
             )

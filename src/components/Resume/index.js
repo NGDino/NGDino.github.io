@@ -12,6 +12,9 @@ function Resume(){
                 <h3>Education</h3>
                 <h4><strong>UC Berkeley</strong></h4>
                 <span><b>Full Stack Web Development Bootcamp</b></span>
+                <p><strong>Front end Technologies:</strong> React, CSS, HTML, Bootstrap, Materialize</p>
+                <p><strong>Back end Technologies:</strong> MongoDB, MySQL, NodeJS, Express JS</p>
+
 
             </div>
 
