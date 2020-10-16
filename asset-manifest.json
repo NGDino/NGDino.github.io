@@ -1,30 +1,30 @@
 {
   "files": {
-    "main.css": "/NGDino/NGDino.github.io/static/css/main.384230cb.chunk.css",
-    "main.js": "/NGDino/NGDino.github.io/static/js/main.db802c15.chunk.js",
-    "main.js.map": "/NGDino/NGDino.github.io/static/js/main.db802c15.chunk.js.map",
-    "runtime-main.js": "/NGDino/NGDino.github.io/static/js/runtime-main.ad08b8d5.js",
-    "runtime-main.js.map": "/NGDino/NGDino.github.io/static/js/runtime-main.ad08b8d5.js.map",
-    "static/js/2.3ff406bd.chunk.js": "/NGDino/NGDino.github.io/static/js/2.3ff406bd.chunk.js",
-    "static/js/2.3ff406bd.chunk.js.map": "/NGDino/NGDino.github.io/static/js/2.3ff406bd.chunk.js.map",
-    "index.html": "/NGDino/NGDino.github.io/index.html",
-    "precache-manifest.953d1ca1929a5dcf3fd9b2d4c68a902c.js": "/NGDino/NGDino.github.io/precache-manifest.953d1ca1929a5dcf3fd9b2d4c68a902c.js",
-    "service-worker.js": "/NGDino/NGDino.github.io/service-worker.js",
-    "static/css/main.384230cb.chunk.css.map": "/NGDino/NGDino.github.io/static/css/main.384230cb.chunk.css.map",
-    "static/js/2.3ff406bd.chunk.js.LICENSE.txt": "/NGDino/NGDino.github.io/static/js/2.3ff406bd.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/NGDino/NGDino.github.io/static/media/blue.b8294cc3.jpg",
-    "static/media/beegum.jpg": "/NGDino/NGDino.github.io/static/media/beegum.afc15c9b.jpg",
-    "static/media/coming-soon.jpg": "/NGDino/NGDino.github.io/static/media/coming-soon.94209809.jpg",
-    "static/media/craver.jpg": "/NGDino/NGDino.github.io/static/media/craver.3a07561c.jpg",
-    "static/media/developer-resume.pdf": "/NGDino/NGDino.github.io/static/media/developer-resume.87919620.pdf",
-    "static/media/headshot.jpg": "/NGDino/NGDino.github.io/static/media/headshot.3705216c.jpg",
-    "static/media/phone.jpg": "/NGDino/NGDino.github.io/static/media/phone.a7441ff8.jpg",
-    "static/media/safr.jpg": "/NGDino/NGDino.github.io/static/media/safr.63292481.jpg"
+    "main.css": "/static/css/main.7661c2a3.chunk.css",
+    "main.js": "/static/js/main.d6bbe7d9.chunk.js",
+    "main.js.map": "/static/js/main.d6bbe7d9.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.19ccc7f6.js",
+    "runtime-main.js.map": "/static/js/runtime-main.19ccc7f6.js.map",
+    "static/js/2.3ff406bd.chunk.js": "/static/js/2.3ff406bd.chunk.js",
+    "static/js/2.3ff406bd.chunk.js.map": "/static/js/2.3ff406bd.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.29c05382d925c6b018a5301f63d1d0ec.js": "/precache-manifest.29c05382d925c6b018a5301f63d1d0ec.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.7661c2a3.chunk.css.map": "/static/css/main.7661c2a3.chunk.css.map",
+    "static/js/2.3ff406bd.chunk.js.LICENSE.txt": "/static/js/2.3ff406bd.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/static/media/blue.b8294cc3.jpg",
+    "static/media/beegum.jpg": "/static/media/beegum.afc15c9b.jpg",
+    "static/media/coming-soon.jpg": "/static/media/coming-soon.94209809.jpg",
+    "static/media/craver.jpg": "/static/media/craver.3a07561c.jpg",
+    "static/media/developer-resume.pdf": "/static/media/developer-resume.87919620.pdf",
+    "static/media/headshot.jpg": "/static/media/headshot.3705216c.jpg",
+    "static/media/phone.jpg": "/static/media/phone.a7441ff8.jpg",
+    "static/media/safr.jpg": "/static/media/safr.63292481.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.ad08b8d5.js",
+    "static/js/runtime-main.19ccc7f6.js",
     "static/js/2.3ff406bd.chunk.js",
-    "static/css/main.384230cb.chunk.css",
-    "static/js/main.db802c15.chunk.js"
+    "static/css/main.7661c2a3.chunk.css",
+    "static/js/main.d6bbe7d9.chunk.js"
   ]
 }
