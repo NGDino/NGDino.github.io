@@ -9,8 +9,8 @@ function Nav(props){
     return(
         <div className="">
             <nav className="border split-nav navbar dark ">
-                <div className="nav-brand dark">
-                    <h3><a href="/">Neil Dino</a></h3>
+                <div className="nav-brand">
+                    <h3><a href="/"><strong>Neil Dino</strong></a></h3>
                 </div>
             
                 <ul className="inline dark">

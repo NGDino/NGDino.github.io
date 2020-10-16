@@ -1,5 +1,7 @@
 import React, {useState} from 'react';
-import {validateEmail} from '../../utils/helpers'
+import {validateEmail} from '../../utils/helpers';
+import phone from '../../assets/images/phone.jpg'
+
 
 function ContactForm(){
     const [formState, setFormState] = useState({name: '', email: '', message: ''});
@@ -36,28 +38,36 @@ function ContactForm(){
 
 
     return(
-        <section className="paper container" id="form-container" >
-            <h2>Contact Me</h2>
-            <form id="contact-form" onSubmit={handleSubmit}>
-                <div className="form-group ">
-                    <label htmlFor="name" className="">Name</label>
-                    <input type="text" className="" name="name" defaultValue={name} onBlur={handleChange} placeholder="John Doe"/>
-                </div>
-                <div className="form-group ">
-                    <label htmlFor="name">Email</label>
-                    <input type="email" defaultValue={email} onBlur={handleChange} placeholder="youremail@gmail.com"/>
-                </div>
-                <div className="form-group ">
-                    <label htmlFor="message">Message</label>
-                    <textarea id="Message" className="" rows="5" name="message" defaultValue={message} onBlur={handleChange} placeholder="How can I help you?"></textarea>
-                </div>
-                {errorMessage&&(
-                    <div>
-                        <p className="error-text">{errorMessage}</p>
+        <section className="paper container flex-row border" id="form-container" >
+           <div className="col-5 paper border" id="form-div">
+                <h2>Contact Me</h2>
+                <form id="contact-form" onSubmit={handleSubmit}>
+                    <div className="form-group col ">
+                        <label htmlFor="name" className="">Name</label>
+                        <input type="text" className="" name="name" defaultValue={name} onBlur={handleChange} placeholder="Your Name"/>
                     </div>
-                )}
-                <button type="submit" >Submit</button>
-            </form>
+                    <div className="form-group col ">
+                        <label htmlFor="name">Email</label>
+                        <input type="email" defaultValue={email} onBlur={handleChange} placeholder="youremail@gmail.com"/>
+                    </div>
+                    <div className="form-group col">
+                        <label htmlFor="message">Message</label>
+                        <textarea id="Message" className="" rows="5" name="message" defaultValue={message} onBlur={handleChange} placeholder="How can I help you?"></textarea>
+                    </div>
+                    {errorMessage&&(
+                        <div>
+                            <p className="error-text text-danger">{errorMessage}</p>
+                        </div>
+                    )}
+                    <div id="btn-div">
+                    <button id="form-btn" type="submit" >Submit</button>
+                    </div>
+                </form>
+            </div>
+            <div className="col">
+                <img src={phone} alt="an old cell phone" className="paper border" id="contact-img"/>
+
+            </div>
         
         </section>
         )

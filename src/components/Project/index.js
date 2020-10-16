@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 
 
 function Project(){
@@ -65,11 +65,13 @@ function Project(){
         {projects.map(project =>{
             return(
                 <div className="card paper margin border" style={{width: "18rem"}}>
-                    <img src={require(`../../assets/images/project-photos/${project.image}`)}/>
+                    <img src={require(`../../assets/images/project-photos/${project.image}`)} alt="screenshot of project"/>
 
                     <div className="card-body">
                         <h4 className="card-title">{project.name}</h4>
                         <p className="card-text">{project.description}</p>
+                        <a href={project.github}>Github</a>
+                        <a href={project.deployed}>Deployed App</a>
                     </div>
                 </div>
             )

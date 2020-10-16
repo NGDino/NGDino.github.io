@@ -8,13 +8,24 @@ body {
   background-image: url(./assets/images/background.jpg);
 }
 
+main{
+  margin-bottom: 100px;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
 
 #profile-pic{
-  margin-right: 15px;
+  margin: 0 auto;  
+}
+
+.split-nav{
+  /* background-image:  url(./assets/images/scribble.jpg); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  
 }
 
 .container {
@@ -25,7 +36,16 @@ code {
 
 
 #about-heading{
-  padding: 40px
+  padding: 40px;
+  
+}
+#about-right{
+  background-image:  url(./assets/images/blue.jpg)
+  
+}
+#about-left{
+  background-image:  url(./assets/images/blue.jpg)
+  
 }
 
 .flex-row {
@@ -33,3 +53,67 @@ code {
   flex-wrap: wrap;
 
 }
+
+.footer {
+  /* position: fixed; */
+  margin-top: 1rem;
+  padding: 1rem;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0;
+}
+.iconify{
+  font-size: 55px;
+  margin-left: 10px;
+  margin-right: 10px;
+  
+}
+
+.about-me{
+  padding: 30px;
+}
+
+#skills{
+  margin: 0 auto;
+  margin-top: 1em;
+  padding-bottom: 1em;
+  padding-top: 0em;
+}
+
+#tech-title{
+  margin-top: 0;
+  padding-top: 0;
+}
+
+#contact-form{
+  text-align: left;
+}
+
+#btn-div{
+  text-align: center;
+}
+
+#form-div{
+  margin: 0 auto;
+}
+
+#contact-img{
+display: inline;
+float: left;
+}
+
+#form-container{
+  background-image:  url(./assets/images/blue.jpg);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  
+}
+#message{
+  min-width: 80%;
+}
+
+
