@@ -1,6 +1,6 @@
 # Personal Portfolio
 
-![Dashboard Image](images/screenshot.jpg)
+![Dashboard Image](src/assets/images/screenshot.jpg)
 
 ## Overview
 
