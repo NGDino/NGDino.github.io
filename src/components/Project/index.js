@@ -4,6 +4,15 @@ import React from 'react';
 function Project(){
     const projects = [
         {
+            name: "Colossal Closer",
+            description: "Group project developed in a two week sprint using the React, MongoDB and GraphQl",
+            image: "colossal.closer.jpg",
+            contribution: "React components and hooks, CSS design, charts and graphs",
+            technologies: "MongoDB, GraphQl, React, Node JS Victory Charts",
+            github: "https://github.com/NGDino/colossal-closer/blob/master/README.md",
+            deployed: "https://colossal-closer.herokuapp.com/"
+        },
+        {
             name: 'SAFR',
             description: "CMS-style blog site where users can publish posts, reviews, and safety measures offered by various businesses during COVID-19. Mobile friendly website that allows the users to get up-to-date information regarding dining, entertainment, and the outdoors.",
             image: "safr.jpg",
@@ -48,15 +57,7 @@ function Project(){
             github: "https://github.com/NGDino/",
             deployed: "https://comingsoon.com/"
         },
-        {
-            name: "Project 3",
-            description: "A group project using MERN Stack",
-            image: "coming-soon.jpg",
-            contribution: "We will know in 2 weeks.",
-            technologies: "MongoDB, Express JS, React, Node JS.",
-            github: "https://github.com/NGDino/",
-            deployed: "https://comingsoon.com/"
-        },
+        
     ];
     // const name = projects.name
     
