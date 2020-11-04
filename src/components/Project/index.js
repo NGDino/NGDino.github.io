@@ -6,7 +6,7 @@ function Project(){
         {
             name: "Colossal Closer",
             description: "Group project developed in a two week sprint using the React, MongoDB and GraphQl",
-            image: "colossal.closer.jpg",
+            image: "colossal-closer.jpg",
             contribution: "React components and hooks, CSS design, charts and graphs",
             technologies: "MongoDB, GraphQl, React, Node JS Victory Charts",
             github: "https://github.com/NGDino/colossal-closer/blob/master/README.md",
