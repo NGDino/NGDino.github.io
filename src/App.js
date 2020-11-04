@@ -15,7 +15,8 @@ function App() {
     <div className="App">
       <header>
         <Nav contentSelected={contentSelected}
-        setContentSelected={setContentSelected}/>
+        setContentSelected={setContentSelected}
+        className="margin-bottom-small"/>
       </header>
       <main>
         {(contentSelected === "about") && <About/>}
