@@ -39,7 +39,7 @@ function ContactForm(){
 
     return(
         <section className="paper container flex-row border" id="form-container" >
-           <div className="col-5 paper border" id="form-div">
+           <div className="sm-12 md-5 col paper border" id="form-div">
                 <h2>Contact Me</h2>
                 <form id="contact-form" onSubmit={handleSubmit}>
                     <div className="form-group col ">

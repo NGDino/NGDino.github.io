@@ -65,14 +65,27 @@ function Project(){
         <div className="flex-row container">
         {projects.map(project =>{
             return(
-                <div className="card paper margin border" style={{width: "18rem"}}>
-                    <img src={require(`../../assets/images/project-photos/${project.image}`)} alt="screenshot of project"/>
+                <div className="card margin " id="flip-card" style={{width: "18rem"}}>
+                    <div id="card-inner" className="border">
+                        <div id="card-front" >
+                            <img src={require(`../../assets/images/project-photos/${project.image}`)} alt="screenshot of project" className="padding border"/>
 
-                    <div className="card-body">
-                        <h4 className="card-title">{project.name}</h4>
-                        <p className="card-text">{project.description}</p>
-                        <a href={project.github}>Github</a>
-                        <a href={project.deployed}>Deployed App</a>
+                            <div className="card-body">
+                                <h4 className="card-title">{project.name}</h4>
+                                <p className="card-text">{project.description}</p>
+                                
+                            </div>
+                        </div>
+                        <div id="card-back" >
+                            <div>
+                            <p><strong>Technologies</strong></p>
+                            <p >{project.technologies}</p>
+                            <p><strong>Contribution</strong></p>
+                            <p >{project.contribution}</p>
+                            <p> <a href={project.github} target="_blank" ><strong>Github </strong></a> </p>
+                            <a href={project.deployed} target="_blank" className="align-middle"><strong>Deployed App</strong></a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             )
