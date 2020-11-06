@@ -12,6 +12,15 @@ function Nav(props){
                 <div className="nav-brand">
                     <h3><a href="/"><strong>Neil Dino</strong></a></h3>
                 </div>
+                <div className='collapsible'>
+                <input id="collapsible1" type="checkbox" name="collapsible1"/>
+                <label for="collapsible1"/
+                >
+                    <div className="bar1"></div>
+                    <div className="bar2"></div>
+                    <div className="bar3"></div>
+                    <div className="bar4"></div>
+                </div>
 
                 <div className="collapsible-body">
                 <ul className="inline ">
