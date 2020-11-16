@@ -47,7 +47,7 @@ function About(){
                         <br></br>
                         Outside of my professional life I am an avid snowboarder and outdoor enthusiast.  I love getting outdoors and 
                         spending time with my wife Andrea and boston terrier Gilbert.  I am a huge foodie that enjoys cooking as well as
-                        finding excellent restaurants and love pairing foods with unique wines, craft beers or artisan cocktails!
+                        finding excellent restaurants and love pairing foods with unique wines!
                     </p>
                 
                     

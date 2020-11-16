@@ -39,8 +39,11 @@ function ContactForm(){
 
     return(
         <section className="paper container flex-row border" id="form-container" >
-           <div className="sm-12 md-5 col paper border" id="form-div">
+            <div className="sm-12 md-5 col paper border" id="form-div">
                 <h2>Contact Me</h2>
+                <p>Phone: <a href="tel:9254959681"> (925)495-9681</a></p>
+                <p>Email:<a href = "mailto: n.dino90@gmail.com"> n.dino90@gmail.com</a> </p>
+                
                 <form id="contact-form" onSubmit={handleSubmit}>
                     <div className="form-group col ">
                         <label htmlFor="name" className="">Name</label>

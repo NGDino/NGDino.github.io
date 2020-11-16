@@ -5,10 +5,10 @@ function Project(){
     const projects = [
         {
             name: "Colossal Closer",
-            description: "Group project developed in a two week sprint using the React, MongoDB and GraphQl",
+            description: "A Sales CRM application that displays sales numbers, charts, and customer information.  This application was developed as a group project during a 2 weeks sprint for my Full- Stack bootcamp throught UC Berkeley Extension. Made with React, MongoDB and GraphQL",
             image: "colossal-closer.jpg",
             contribution: "React components and hooks, CSS design, charts and graphs",
-            technologies: "MongoDB, GraphQl, React, Node JS Victory Charts",
+            technologies: "MongoDB, GraphQl, React, NodeJS, Victory Charts, Materialize, Chakra UI, and MomentJS",
             github: "https://github.com/NGDino/colossal-closer/blob/master/README.md",
             deployed: "https://colossal-closer.herokuapp.com/"
         },
@@ -40,22 +40,22 @@ function Project(){
             deployed: "https://ngdino.github.io/228beegum/"
         },
         {
-            name: "Mack 'N The Box ",
-            description: "Responsive business website comissioned for a DJ. Uses soundcload API and has capabilities for a webstore",
-            image: "coming-soon.jpg",
+            name: "Shop-Shop",
+            description: "An E-Commerce store using React, GraphQl, MongoDB, Express and Stripe.  Uses Global state to manage products, the cart, and categories.",
+            image: "shop-shop.jpg",
             contribution: "Sole contributor.",
-            technologies: "Javascript, CSS, HTML.",
-            github: "https://github.com/NGDino/mack-n-box",
-            deployed: "https://macknthebox.com/"
+            technologies: "MongoDb, ExpressJS, React, NodeJS, Stripe",
+            github: "https://github.com/NGDino/shop-shop",
+            deployed: "https://whispering-basin-48276.herokuapp.com/"
         },
         {
-            name: "Web Store",
-            description: "A webstore using the MERN Stack",
-            image: "coming-soon.jpg",
+            name: "Weather Dashboard",
+            description: "A webapplication that displays current weather, UV Index and a 5 day forecast for any searched city using two calls to a 3rd Party Rest API (Open Weather Map).  Uses local storage to save and list a search history.",
+            image: "weatherImage.jpg",
             contribution: "Sole contributor.",
-            technologies: "MongoDB, Express JS, React, Node JS.",
-            github: "https://github.com/NGDino/",
-            deployed: "https://comingsoon.com/"
+            technologies: "JavaScript, HTML, Bootstrap, Rest API",
+            github: "https://github.com/NGDino/weather-dashboard",
+            deployed: "https://ngdino.github.io/weather-dashboard/"
         },
         
     ];
