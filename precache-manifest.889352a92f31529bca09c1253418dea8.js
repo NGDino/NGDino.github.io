@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c385f0f9725f2b6274430feb7d76a804",
+    "revision": "744f366fed43f05ab87004bc085cd3b0",
     "url": "/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/2.4c6d3be9.chunk.css"
   },
   {
-    "revision": "2a05e1564e54bffeee0e",
+    "revision": "5ac7df51ccb45d8c62aa",
     "url": "/static/css/main.15a1fb23.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.d9dd2019.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2a05e1564e54bffeee0e",
-    "url": "/static/js/main.1fa903f7.chunk.js"
+    "revision": "5ac7df51ccb45d8c62aa",
+    "url": "/static/js/main.4c13e1b5.chunk.js"
   },
   {
     "revision": "4f2b1704eab49d50853b",
@@ -66,5 +66,13 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "632924816065d8d224e64a39a1060bdd",
     "url": "/static/media/safr.63292481.jpg"
+  },
+  {
+    "revision": "beaefafa85f2ba1894b6978ec2fc0e86",
+    "url": "/static/media/shop-shop.beaefafa.jpg"
+  },
+  {
+    "revision": "d52bd20bf210f15e9ba4b6d73b2bbfb5",
+    "url": "/static/media/weatherImage.d52bd20b.jpg"
   }
 ]);
