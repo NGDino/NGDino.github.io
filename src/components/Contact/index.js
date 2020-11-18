@@ -50,8 +50,8 @@ function ContactForm(){
                         <input type="text" className="" name="name" defaultValue={name} onBlur={handleChange} placeholder="Your Name"/>
                     </div>
                     <div className="form-group col ">
-                        <label htmlFor="name">Email</label>
-                        <input type="email" defaultValue={email} onBlur={handleChange} placeholder="youremail@gmail.com"/>
+                        <label htmlFor="email">Email</label>
+                        <input type="email" name="email" defaultValue={email} onBlur={handleChange} placeholder="youremail@gmail.com"/>
                     </div>
                     <div className="form-group col">
                         <label htmlFor="message">Message</label>
@@ -68,7 +68,7 @@ function ContactForm(){
                 </form>
             </div>
             <div className="col">
-                <img src={phone} alt="an old cell phone" className="paper border" id="contact-img"/>
+                <a href="tel:9254959681"><img src={phone} alt="an old cell phone" className="paper border" id="contact-img"/></a>
 
             </div>
         

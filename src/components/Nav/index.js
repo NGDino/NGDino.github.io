@@ -14,7 +14,7 @@ function Nav(props){
                 </div>
                 <div className='collapsible'>
                 <input id="collapsible1" type="checkbox" name="collapsible1"/>
-                <label for="collapsible1"/
+                <label htmlFor="collapsible1"/
                 >
                     <div className="bar1"></div>
                     <div className="bar2"></div>

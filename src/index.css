@@ -165,3 +165,9 @@ float: left;
   align-items: center;
   justify-content: center;
 }
+
+.skills{
+  columns: 3;
+  -webkit-columns: 3;
+  -moz-columns: 3;
+}
