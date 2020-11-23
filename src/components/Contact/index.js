@@ -3,12 +3,14 @@ import {validateEmail} from '../../utils/helpers';
 import phone from '../../assets/images/phone.jpg'
 
 //email js
-import emailjs, {sendForm} from 'emailjs-com';
+import emailjs from 'emailjs-com';
 
 function ContactForm(){
     const [formState, setFormState] = useState({name: '', email: '', message: ''});
     const{ name, email, message } = formState;
     const [errorMessage, setErrorMessage] = useState('');
+
+    const [successMessage, setSuccessMesage] = useState('');
 
     function handleChange(e){
 
@@ -46,9 +48,17 @@ function ContactForm(){
         .then((result)=>{
             console.log(result.text)
             
+                
+                setSuccessMesage('Your inquiry was received.  Check email for verification.')
+    
+            
+            
+            
         },(error)=>{
             console.log(error.text)
-        });
+        })
+        
+
 
     }
 
@@ -76,6 +86,11 @@ function ContactForm(){
                     {errorMessage&&(
                         <div>
                             <p className="error-text text-danger">{errorMessage}</p>
+                        </div>
+                    )}
+                    {successMessage&&(
+                        <div>
+                            <p className="text-success">{successMessage}</p>
                         </div>
                     )}
                     <div id="btn-div">
