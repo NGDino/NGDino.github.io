@@ -94,7 +94,7 @@ function ContactForm(){
                         </div>
                     )}
                     <div id="btn-div">
-                    <button id="button" className="btn-large" type="submit" value="Send" />
+                    <button id="button" type="submit" value="Send">Send</button>
                     </div>
                 </form>
             </div>
