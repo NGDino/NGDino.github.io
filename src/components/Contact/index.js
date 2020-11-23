@@ -2,6 +2,8 @@ import React, {useState} from 'react';
 import {validateEmail} from '../../utils/helpers';
 import phone from '../../assets/images/phone.jpg'
 
+//email js
+import emailjs, {sendForm} from 'emailjs-com';
 
 function ContactForm(){
     const [formState, setFormState] = useState({name: '', email: '', message: ''});
@@ -12,7 +14,7 @@ function ContactForm(){
 
         if(e.target.name === 'email'){
             const isValid= validateEmail(e.target.value)
-            console.log(isValid)
+            // console.log(isValid)
             if(!isValid){
                 setErrorMessage('Your email is invalid');
             }else{
@@ -31,9 +33,23 @@ function ContactForm(){
     }
 
     function handleSubmit(event){
+
         console.log('buttonpress');
         event.preventDefault();
         console.log(formState)
+        const serviceId = 'service_tyix8du'
+        const templateId = 'portfolio_template'
+        const userId = 'user_n0ZXlyXiFHLSvNhfhMQHr'
+
+        //email js function
+        emailjs.sendForm(serviceId , templateId, event.target, userId)
+        .then((result)=>{
+            console.log(result.text)
+            
+        },(error)=>{
+            console.log(error.text)
+        });
+
     }
 
 
@@ -46,16 +62,16 @@ function ContactForm(){
                 
                 <form id="contact-form" onSubmit={handleSubmit}>
                     <div className="form-group col ">
-                        <label htmlFor="name" className="">Name</label>
-                        <input type="text" className="" name="name" defaultValue={name} onBlur={handleChange} placeholder="Your Name"/>
+                        <label htmlFor="name" >Name</label>
+                        <input type="text" id="name" name="name" defaultValue={name} onBlur={handleChange} placeholder="Your Name"/>
                     </div>
                     <div className="form-group col ">
                         <label htmlFor="email">Email</label>
-                        <input type="email" name="email" defaultValue={email} onBlur={handleChange} placeholder="youremail@gmail.com"/>
+                        <input type="email" name="email" id="email"defaultValue={email} onBlur={handleChange} placeholder="youremail@gmail.com"/>
                     </div>
                     <div className="form-group col">
                         <label htmlFor="message">Message</label>
-                        <textarea id="Message" className="" rows="5" name="message" defaultValue={message} onBlur={handleChange} placeholder="How can I help you?"></textarea>
+                        <textarea id="Message" rows="5" name="message"  defaultValue={message} onBlur={handleChange} placeholder="How can I help you?"></textarea>
                     </div>
                     {errorMessage&&(
                         <div>
@@ -63,7 +79,7 @@ function ContactForm(){
                         </div>
                     )}
                     <div id="btn-div">
-                    <button id="form-btn" type="submit" >Submit</button>
+                    <button id="button" className="btn-large" type="submit" value="Send" />
                     </div>
                 </form>
             </div>
