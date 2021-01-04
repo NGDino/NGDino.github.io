@@ -3,6 +3,9 @@ import React, {useState, useEffect} from 'react';
 import { Icon, InlineIcon } from '@iconify/react';
 import hamburgerIcon from '@iconify-icons/mdi/hamburger';
 
+//material ui for drawer
+import {Drawer, List, ListItem, ListItemText} from '@material-ui/core';
+
 function useWindowSize(){
     const [size, setSize] = useState([window.innerHeight, window.innerWidth])
     
@@ -20,12 +23,47 @@ function useWindowSize(){
 
 function Nav(props){
 
+    //Drawer props
+    const [open, setOpen] = useState(false);
+
+    const handleDrawerOpen = () => {
+        setOpen(true)
+    }
+
+    const handleDrawerClose = () => {
+        setOpen(false)
+    }
+
+    const menuList = [
+        {
+            name: "About",
+            content: "about"
+        },
+        {
+            name: "Portfolio",
+            content: "portfolio"
+        },
+        {
+            name: "Contact Me",
+            content: "contact"
+        },
+        {
+            name: "Resume",
+            content: "resume"
+        },
+    ]
+    
+
     const {
         setContentSelected,
         contentSelected,
     }= props
 
     const[height, width] = useWindowSize()
+
+    function handleOpen(){
+        window.alert('button pressed')
+    }
 
     return(
         <>
@@ -78,11 +116,29 @@ function Nav(props){
                     </div>
                     <div className="collapsible">
                     <input id="collapsible1" type="checkbox" name="collapsible1"/>
-                    <label id="hamburger"><Icon className="inline right" htmlfor="collapsible1" icon={hamburgerIcon} /></label> 
+                    <label id="hamburger"><Icon className="inline right" htmlfor="collapsible1" onClick={handleDrawerOpen} icon={hamburgerIcon}/></label> 
                     
                     </div>
                 </nav>
+                <Drawer anchor= 'left' open={open} onClose={handleDrawerClose}>
+                    <div className=''>
+                        <List>
+                            {menuList.map((list) => (
+                                <ListItem
+                                    button key={list.name}
+                                    onClick={handleDrawerClose}
+                                    
+                                    >
+                                <ListItemText primary={list.name} />
+                                </ListItem>
+                            ))}
+                        </List>
+                    </div>
+
+                </Drawer>
             </div>
+
+
         
         }
         </> 
