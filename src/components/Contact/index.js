@@ -64,7 +64,7 @@ function ContactForm(){
 
 
     return(
-        <section className="paper container flex-row border" id="form-container" >
+        <section className="paper container flex-row border" id="contact" >
             <div className="sm-12 md-5 col paper border" id="form-div">
                 <h2>Contact Me</h2>
                 <p>Phone: <a href="tel:9254959681"> (925)495-9681</a></p>

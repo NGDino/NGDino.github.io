@@ -3,7 +3,7 @@ import resume from '../../assets/resume/developer-resume.pdf';
 
 function Resume(){
     return(
-        <div className="paper container">
+        <div className="paper container" id='resume'>
             <div className="border">
                 <h2>Resume</h2> 
                 <h3><a href={resume} download>Download</a></h3>

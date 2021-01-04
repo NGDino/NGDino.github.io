@@ -19,10 +19,10 @@ function App() {
         className="margin-bottom-small"/>
       </header>
       <main>
-        {(contentSelected === "about") && <About/>}
-        {(contentSelected === "portfolio") && <Portfolio/>}
-        {(contentSelected === "contactForm") && <ContactForm/>}
-        {(contentSelected === "resume") && <Resume/>}
+        <About/>
+        <Portfolio/>
+        <ContactForm/>
+        <Resume/>
       </main>
       <Footer/>
       

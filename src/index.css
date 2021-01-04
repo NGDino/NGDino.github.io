@@ -41,14 +41,10 @@ code {
   padding: 40px;
   
 }
-#about-right{
-  background-image:  url(./assets/images/blue.jpg)
-  
+#about-container{
+  background-image:  url(./assets/images/blue.jpg);
 }
-#about-left{
-  background-image:  url(./assets/images/blue.jpg)
-  
-}
+
 
 .flex-row {
   display: flex;
@@ -107,7 +103,7 @@ display: inline;
 float: left;
 }
 
-#form-container{
+#contact{
   background-image:  url(./assets/images/blue.jpg);
   text-align: center;
   display: flex;
@@ -170,4 +166,8 @@ float: left;
   columns: 3;
   -webkit-columns: 3;
   -moz-columns: 3;
+}
+
+.about-me{
+  font-size: 17px;
 }
