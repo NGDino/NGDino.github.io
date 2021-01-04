@@ -36,13 +36,8 @@ function Nav(props){
                         <h3><a href="/"><strong>Neil Dino</strong></a></h3>
                     </div>
                     <div className='collapsible'>
-                        <input id="collapsible1" type="checkbox" name="collapsible1"/>
-                        <label htmlFor="collapsible1">
-                            <div className="bar1"></div>
-                            <div className="bar2"></div>
-                            <div className="bar3"></div>
-                            <div className="bar4"></div>
-                        </label>
+                        
+                        
                     </div>
 
                     <div className="collapsible-body">
@@ -82,7 +77,9 @@ function Nav(props){
                             <h3><a href="/"><strong>Neil Dino</strong></a></h3>
                     </div>
                     <div className="collapsible">
-                        <Icon className="inline right" icon={hamburgerIcon} />
+                    <input id="collapsible1" type="checkbox" name="collapsible1"/>
+                    <label id="hamburger"><Icon className="inline right" htmlfor="collapsible1" icon={hamburgerIcon} /></label> 
+                    
                     </div>
                 </nav>
             </div>
