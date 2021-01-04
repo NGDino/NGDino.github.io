@@ -3,7 +3,7 @@ import resume from '../../assets/resume/developer-resume.pdf';
 
 function Resume(){
     return(
-        <div className="paper container">
+        <div className="paper container" id='resume'>
             <div className="border">
                 <h2>Resume</h2> 
                 <h3><a href={resume} download>Download</a></h3>
@@ -34,10 +34,12 @@ function Resume(){
                 </ul>
                 <h3>Additional Skills</h3>
                 <ul>
+                    <li>2 Years Wordpress Management</li>
+                    <li>3 Years Digital Marketing</li>
+                    <li>3 Years Social Media Management</li>
                     <li>7+ Years Professional Sales </li>
-                    <li>3 Years Marketing</li>
                     <li>3 Years Management</li>
-                    <li>Social Media Management</li>
+                    
                 </ul>
                 <h3>Education</h3>
                 <h4><strong>UC Berkeley</strong></h4>

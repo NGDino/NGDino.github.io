@@ -16,13 +16,13 @@ function App() {
       <header>
         <Nav contentSelected={contentSelected}
         setContentSelected={setContentSelected}
-        className="margin-bottom-small"/>
+        className="margin-bottom"/>
       </header>
       <main>
-        {(contentSelected === "about") && <About/>}
-        {(contentSelected === "portfolio") && <Portfolio/>}
-        {(contentSelected === "contactForm") && <ContactForm/>}
-        {(contentSelected === "resume") && <Resume/>}
+        <About/>
+        <Portfolio/>
+        <ContactForm/>
+        <Resume/>
       </main>
       <Footer/>
       
