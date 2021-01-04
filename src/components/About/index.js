@@ -12,7 +12,7 @@ import ReactRotatingText from 'react-rotating-text';
 
 function About(){
     return(
-            <div className="" id="about">
+            <div className="" id="about" style={{height: 900}}>
                 <div className="container paper row flex-edges border " id="about-container">
 
                     <div className="col sm-12 md-4 margin center" id="leftside">
@@ -39,7 +39,7 @@ function About(){
                     <div id="rightside" className="col sm-12 md-7">
                         <div className="paper border padding-none" id="about-heading">
                             <h2><strong>Neil Dino</strong></h2>
-                            <h4><ReactRotatingText items={['Full Stack Developer', 'React Expert', 'GraphQL Guru', 'Snowboarder', 'Human' ]}/></h4>
+                            <h4><ReactRotatingText items={['Full Stack Developer', 'React Expert', 'GraphQL Guru', 'Marketing Maniac', 'Sales Superhuman' ]}/></h4>
                         </div>
                         <p className="about-me paper margin-right-small border">
                             
