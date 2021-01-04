@@ -4,6 +4,9 @@ import profilePic from '../../assets/images/headshot.jpg'
 import  Icon from '@iconify/react';
 import fileTypeMongo from '@iconify/icons-vscode-icons/file-type-mongo';
 
+//animations
+import GlitchClip from 'react-glitch-effect/core/Clip';
+import ReactRotatingText from 'react-rotating-text';
 
 
 
@@ -13,7 +16,11 @@ function About(){
                 <div className="container paper row flex-edges border " id="about-container">
 
                     <div className="col sm-12 md-4 margin center" id="leftside">
-                        <img src={profilePic} alt="A headshot of me" className="" id="profile-pic" width="400" height="400"/>
+                        <GlitchClip duration='2s'>
+                            <img src={profilePic} alt="A headshot of me" className="" id="profile-pic" width="400" height="400"/>
+                        </GlitchClip>
+                        
+                        
                         <div id="skills" className="paper border">
                             <h3 id="tech-title">Technologies</h3>
                             <div className="icons">
@@ -32,7 +39,7 @@ function About(){
                     <div id="rightside" className="col sm-12 md-7">
                         <div className="paper border padding-none" id="about-heading">
                             <h2><strong>Neil Dino</strong></h2>
-                            <h4><strong>Web Developer</strong></h4>
+                            <h4><ReactRotatingText items={['Full Stack Developer', 'React Expert', 'GraphQL Guru', 'Snowboarder', 'Human' ]}/></h4>
                         </div>
                         <p className="about-me paper margin-right-small border">
                             

@@ -16,7 +16,7 @@ function App() {
       <header>
         <Nav contentSelected={contentSelected}
         setContentSelected={setContentSelected}
-        className="margin-bottom-small"/>
+        className="margin-bottom"/>
       </header>
       <main>
         <About/>

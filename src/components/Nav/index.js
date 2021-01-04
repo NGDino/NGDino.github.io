@@ -3,6 +3,7 @@ import React, {useState, useEffect} from 'react';
 import { Icon, InlineIcon } from '@iconify/react';
 import hamburgerIcon from '@iconify-icons/mdi/hamburger';
 
+
 //react scroll
     import {Link} from 'react-scroll';
 
@@ -70,7 +71,7 @@ function Nav(props){
 
     return(
         <>
-        {(width >= 400) && 
+        {(width > 768) && 
             <div className="">
                 <nav className="border fixed split-nav navbar  ">
                     <div className="nav-brand">
@@ -118,7 +119,7 @@ function Nav(props){
             </div>
         }
 
-        {(width <= 400) &&
+        {(width <= 768) &&
             <div>
                 <nav className="border split-nav navbar  ">
                     <div className="nav-brand">
@@ -137,9 +138,10 @@ function Nav(props){
                                 <ListItem
                                     button key={list.name}
                                     onClick={handleDrawerClose}
+                                    component = {Link} to= {list.content}
                                     
                                     >
-                                <ListItemText primary={list.name} />
+                                <ListItemText  primary={list.name} />
                                 </ListItem>
                             ))}
                         </List>

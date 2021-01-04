@@ -13,6 +13,8 @@
     "papercss": "^1.8.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-glitch-effect": "^2.0.2",
+    "react-rotating-text": "^1.4.1",
     "react-scripts": "3.4.3",
     "react-scroll": "^1.8.1"
   },
