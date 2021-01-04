@@ -16,14 +16,14 @@ function About(){
                     <div id="skills" className="paper">
                         <h3 id="tech-title">Technologies</h3>
                         <div className="icons">
-                        <Icon icon={fileTypeMongo} width="3em"/>
-                        <span className="iconify" data-icon="vscode-icons:file-type-reactjs" data-inline="false"></span>
-                        <span className="iconify" data-icon="logos:nodejs" data-inline="false"></span>
-                        <span className="iconify" data-icon="logos:bootstrap" data-inline="false"></span>
-                        <span className="iconify" data-icon="fa-brands:git-square" data-inline="false"></span>
-                        <span className="iconify" data-icon="simple-icons:csswizardry" data-inline="false"></span>
-                        <span className="iconify" data-icon="vscode-icons:file-type-mysql" data-inline="false"></span>
-                        <span className="iconify" data-icon="logos:materializecss" data-inline="false" data-width="1.5em"></span>
+                            <Icon icon={fileTypeMongo} width="3em"/>
+                            <span className="iconify" data-icon="vscode-icons:file-type-reactjs" data-inline="false"></span>
+                            <span className="iconify" data-icon="logos:nodejs" data-inline="false"></span>
+                            <span className="iconify" data-icon="logos:bootstrap" data-inline="false"></span>
+                            <span className="iconify" data-icon="fa-brands:git-square" data-inline="false"></span>
+                            <span className="iconify" data-icon="simple-icons:csswizardry" data-inline="false"></span>
+                            <span className="iconify" data-icon="vscode-icons:file-type-mysql" data-inline="false"></span>
+                            <span className="iconify" data-icon="logos:materializecss" data-inline="false" data-width="1.5em"></span>
                         </div>
                     </div>
                 
