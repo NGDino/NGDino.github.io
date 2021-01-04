@@ -12,7 +12,7 @@ import ReactRotatingText from 'react-rotating-text';
 
 function About(){
     return(
-            <div className="" id="about" style={{height: 900}}>
+            <div className="" id="about" >
                 <div className="container paper row flex-edges border " id="about-container">
 
                     <div className="col sm-12 md-4 margin center" id="leftside">
