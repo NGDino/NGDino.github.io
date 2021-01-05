@@ -88,7 +88,7 @@ function Nav(props){
                                 <Link activeClass='active' to='about' spy={true} smooth={true}>About</Link>
                             </li>
                             <li>
-                                <Link activeClass='active' to='portfolio' spy={true} smooth={true}>Portfolio</Link>
+                                <p><Link activeClass='active' to='portfolio' spy={true} smooth={true}>Portfolio</Link></p>
                             </li>
                             <li>
                                 <Link activeClass='active' to='contact' spy={true} smooth={true}>Contact</Link>
